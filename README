@@ -1,0 +1,31 @@
+#  YouTube Video Downloader
+
+A simple web application where users can paste a YouTube video link, select video resolution (360p, 480p, 720p, etc.), and download the video.
+
+## Features
+ Paste YouTube Link – Users enter the video URL  
+ Resolution Options – Display available resolutions (360p, 480p, 720p, etc.)  
+ Download Button – Users can download the selected quality  
+ Dark/Light Mode – Simple UI customization  
+Mobile-Friendly – Works on phones & tablets  
+
+---
+
+##  Tech Stack
+- **Frontend:** HTML, CSS, JavaScript (React.js for dynamic UI)  
+- **Backend:** Node.js + Express.js  
+- **API:** `yt-dlp` (or YouTube Video API)  
+
+---
+## Install yt-dlp
+pkg update && pkg upgrade
+pkg install python
+pip install -U yt-dlp
+
+##  Installation Guide
+
+### 1 **Clone the Repository**
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/Youtube-Video-Downloader.git
+cd Youtube-Video-Downloader
+
